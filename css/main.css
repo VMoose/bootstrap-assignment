@@ -119,6 +119,7 @@
 }
 
 #pad-div {
+  padding-top: 50px;
   background-color: #000
 }
 
@@ -138,6 +139,11 @@
   font-size: 18px;
 }
 
+.featurette {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .col-md-7 p {
   text-align: justify;
   font-size: 18px;
@@ -146,4 +152,11 @@
 .container h2{
   font-family: GameFont;
   text-align: center;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  background-image: url("../images/sophie.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }

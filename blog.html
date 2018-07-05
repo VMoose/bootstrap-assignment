@@ -12,20 +12,60 @@
 </head>
 <body>
   <!--Header-->
-  <div class="container">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-          <a class="navbar-brand" href="#">Game of Thrones</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-nabar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse" id="collapse-nabar">
-            <form class="form-inline my-2 my-lg-0 ml-auto">
-              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+  <section class="wrapper container">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark p">
+      <a class="navbar-brand" href="#">Game of Thrones</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-nabar" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapse-nabar">
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </div>
+    </nav>
+  </section>
+  <section id="pad-div"></section>
+  <!--Jumbotron-->
+  <section class="jumbotron p-100 p-md-5 text-white rounded bg-dark">
+    <div class="col-md-6 px-0">
+      <h1 class="display-3 font-italic rem-text">Sophie Turner says revealing her Game of Thrones tattoo "was probably not a good idea"</h1>
+      <p class="lead my-3 rem-text">But, of course, she would NEVER spoil the ending.</p>
+      <p class="lead mb-0 rem-text"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+    </div>
+  </section>
+  <!--Usage of Cards-->
+  <section class="row mb-2">
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-primary">Daily Express</strong>
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">Did Sansa stark just confirm jon snow's death?</a>
+            </h3>
+            <div class="mb-1 text-muted">June 12</div>
+            <p class="card-text mb-auto">Game of Thrones season 8 spoilers: Jon Snow death CONFIRMED? Here’s the clue you missed</p>
+            <a href="https://www.express.co.uk/showbiz/tv-radio/983846/Game-of-Thrones-season-8-spoilers-Jon-Snow-death-confirmed-Sam-Tarly-Euron-Greyjoy-HBO">Continue reading</a>
           </div>
-        </nav>
-  </div>
+          <img class="card-img-right flex-auto d-none d-lg-block" src="images/sansa-blog.jpg" alt="Jon snow winterfell" width=50%>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <strong class="d-inline-block mb-2 text-success">Metro</strong>
+            <h3 class="mb-0">
+              <a class="text-dark" href="#">This crazy jon snow fan theory will blow your mind...</a>
+            </h3>
+            <div class="mb-1 text-muted">June 25</div>
+            <p class="card-text mb-auto">Game Of Thrones: This fan theory about Jon Snow’s fate in the final season is intriguing</p>
+            <a href="https://metro.co.uk/2018/07/05/game-thrones-fan-theory-jon-snows-fate-final-season-intriguing-7684683/">Continue reading</a>
+          </div>
+          <img class="card-img-right flex-auto d-none d-lg-block" src="images/jon-blog.jpg" alt="Jon snow winterfell" width=50%>
+        </div>
+      </div>
+    </section>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
