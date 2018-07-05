@@ -119,7 +119,6 @@
 }
 
 #pad-div {
-  padding-top: 50px;
   background-color: #000
 }
 
@@ -137,11 +136,6 @@
 
 .col-lg-4 p {
   font-size: 18px;
-}
-
-.featurette {
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .col-md-7 p {
