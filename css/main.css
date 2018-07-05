@@ -1,6 +1,13 @@
 /*Importing Google font*/
 @import 'https://fonts.googleapis.com/css?family=Montserrat|Open+Sans';
 
+
+/* Custom form import*/
+@font-face {
+  font-family: GameFont;
+  src: url("fonts/Game\ of\ Thrones.ttf") format("opentype");
+}
+
 /*Header*/
 
 .navbar-brand {
