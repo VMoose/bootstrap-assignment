@@ -11,12 +11,12 @@
 /*Header*/
 
 .navbar-brand {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'GameFont','Montserrat', sans-serif;
   text-transform: uppercase
 }
 
 .navbar .nav {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'GameFont','Open Sans', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 1.2rem;
@@ -130,13 +130,13 @@
   max-height: 600px;
 }
 
-.row {
-  padding-top:20px;
-}
-
 /*Three column*/
 .col-lg-4 {
   text-align: center;
+}
+
+.col-lg-4 p {
+  font-size: 18px;
 }
 
 .featurette {
@@ -146,4 +146,10 @@
 
 .col-md-7 p {
   text-align: justify;
+  font-size: 18px;
+}
+
+.container h2{
+  font-family: GameFont;
+  text-align: center;
 }
