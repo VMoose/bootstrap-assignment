@@ -7,7 +7,9 @@
   font-family: GameFont;
   src: url("fonts/Game\ of\ Thrones.ttf") format("opentype");
 }
-
+body {
+  overflow-x: hidden;
+}
 /*Header*/
 
 .navbar-brand {
